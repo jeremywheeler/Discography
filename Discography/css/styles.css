@@ -1,0 +1,291 @@
+/*
+Developer: Jeremy Wheeler
+Table of Contents
+HEADER - The Library, Sass,
+MAINCONTENT - About Sass, Sass and CSS, Information, Newsletter 
+FOOTER – Copyright
+Color Palette
+#1E2422 - Very dark (mostly black) cyan - lime green
+#88BEB1 - Slightly desaturated cyan
+#FF621E - Vivid orange
+#E9CEBC - Light grayish orange
+#718a94 - Dark grayish blue
+
+*/
+
+
+
+
+
+body{
+	background-color: #222020;
+	margin:0;
+	
+}
+/* 'Header
+--------------------------*/
+header{
+	background:  
+	 url(../images/books.png) repeat ;
+	padding-bottom: 0px;
+	padding-left:20px;
+	padding-top:20px;
+	text-align: center;
+
+
+}
+
+
+
+}
+.albums{
+	background-color:;
+	color:#FFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+    padding-bottom: 20px;
+	padding-top:150px;
+    text-align: center;
+
+
+
+}
+.abou{
+	
+}
+.about{
+	background-color:#6d4a4a;
+	border-bottom:solid;
+	border-left:solid;
+	border-right:solid;
+	border-top:solid;
+	color:#FFF;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 25px;
+    padding-bottom: 20px;
+    padding-left:20px;
+	padding-top:80px;
+    text-align: left;
+}
+
+.visions{
+	background-color: #222020;
+	width:400px;
+
+}
+.smoke{
+	padding-left:15px;
+	width: 392px;
+}
+.evolve{
+    padding-left:15px;
+
+    width:400px;
+}
+
+
+.text{
+	background:  
+	 url(../images/tile2.png) repeat ;
+	border-top-color: #080808;
+	border-top: solid;
+	border-width: 3px;
+	color:#E9CEBC;
+	font-family: 'Peralta', cursive;
+    font-size:30px;
+	font-weight:800;
+	padding-bottom:20px;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-top: 20px;
+	text-align: left;
+
+
+	
+}
+/* 'Information
+--------------------------*/
+.example{
+		padding-top: 20px;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-bottom:20px;
+	border-top: solid;
+	border-top-color: #080808;
+	border-width: 3px;
+	background:  
+	 url(../images/tex.png) repeat ;
+    background-size: cover;
+	text-align: left;
+	font-size:30px;
+	font-weight:800;
+	font-family: 'Peralta', cursive;
+	color:#E9CEBC;
+
+}
+
+.text2{
+    background-color: #718a94;
+    border-top-color: #080808;
+	border-top: solid;
+	border-width: 3px;
+    color:#E9CEBC;
+    font-family: 'Peralta', cursive;
+    font-size:30px;
+	font-weight:800;
+	padding-bottom:20px;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-top: 20px;
+	text-align: center;
+
+}
+.text3{
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-bottom:20px;
+    background-color: #718a94;
+	text-align: left;
+	font-size:30px;
+	font-weight:800;
+	font-family: 'Peralta', cursive;
+	color:#E9CEBC;
+}
+/* 'Information
+--------------------------*/
+.information{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-bottom:20px;
+	border-top: solid;
+	border-top-color: #080808;
+	border-width: 3px;
+	background:  
+	 url(../images/tile2.png) repeat ;
+    text-align: left;
+	font-size:30px;
+	font-weight:800;
+	font-family: 'Peralta', cursive;
+	color:#E9CEBC;
+
+
+
+}
+/* Form
+--------------------------*/
+.form{
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-bottom:20px;
+	border-top: solid;
+	border-top-color: #080808;
+	border-width: 5px;
+	background:  
+	 url(../images/tex.png) repeat ;
+    background-size: cover;
+	text-align: center;
+	font-size:30px;
+	font-weight:1000;
+	font-family: 'Peralta', cursive;
+	color:#E9CEBC;
+}
+/* 'Footer
+--------------------------*/
+.foot{
+    padding-top: 30px;
+	padding-left: 30px;
+	padding-right:30px;
+	padding-bottom:20px;
+	border-top: solid;
+	border-top-color: #080808;
+	border-width: 3px;
+	background:  
+	 url(../images/tile2.png) repeat ;
+    
+	text-align: center;
+	font-size:15px;
+	font-weight:800;
+	font-family: 'Peralta', cursive;
+	color:#E9CEBC;
+
+}
+/* Navigation
+--------------------------*/
+a{
+	color:#1E2422;
+	font-size: 20px;
+}
+a:hover{
+	color:#10be25;
+}
+a:active{
+	color:#718a94;
+}
+
+nav {
+	text-align: center;
+	background-color: #818181;
+	position: fixed;
+	top: 50;
+	width: 100%;
+	border-bottom:solid;
+	border-color:#080808;
+	border-top: solid;
+	border-width:9px;
+
+
+}
+nav a {
+	display: inline-block;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-weight: 800;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* Media Queries
+---------------------------*/
+
+@media (min-width: 900px) {
+	.col-narrow{
+	   width: 30%;
+	   float: left;
+}
+    .col-wide{
+	   width: 70%;
+	   float: left;
+	   padding-left: 20px;
+  }
+}
+@media (max-width: 899px) {
+	header{
+		text-align: center;
+		padding-top: 20pxpx;
+	}
+	.book{
+		max-width:400px;
+	}
+	.visions{
+		max-width: 300px;
+	}
+	.smoke{
+		max-width: 302px;
+		padding-right:10px;
+	}
+	.evolve{
+		max-width:310px;
+	}
+	.s{
+		max-width:300px;
+	}
+	.s2{
+		max-width:300px;
+	}
+	.foot{
+		max-width:500px;
+	}
+}
